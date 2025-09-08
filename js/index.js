@@ -51,7 +51,7 @@ const showCardData = plants => {
       modalContent.innerHTML = `
       <div class=''>
        <h6 class="mb-2 text-lg font-semibold">${plant.name}</h6>
-        <div class="card-img rounded-lg h-[400px] mb-4">
+        <div class="card-img rounded-lg lg:h-[400px] h-[250px] mb-4">
           <img class="h-full rounded-lg w-full" src="${plant.image}" alt="${plant.name}">
         </div>
         <div class="mb-4">
