@@ -86,7 +86,7 @@ const showCardData = plants => {
         <p class="text-sm text-[#aaa5a5] mt-2">৳<span class="plant-price">${plant.price}</span></p>
       </div>
       <div class="w-4 h-4">
-        <img class="cross-btn w-full h-full cursor-pointer" src="../assets/cross.png" alt="cross">
+        <img class="cross-btn w-full h-full cursor-pointer" src="../assets/cross.png" alt="cross-sine">
       </div>
   `;
       cartList.appendChild(cartItem);
